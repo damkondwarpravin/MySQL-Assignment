@@ -7,9 +7,9 @@ def ingest_csv_to_mysql():
     try: 
         # 1. Connect to MySQL Server 
         conn = mysql.connector.connect( 
-            host="127.0.0.1", 
-            user="root", 
-            password="Welcome1!", 
+            host="********", 
+            user="******", 
+            password="*******", 
             database="company_db" # Ensure this database is created beforehand 
         ) 
         cursor = conn.cursor() 
