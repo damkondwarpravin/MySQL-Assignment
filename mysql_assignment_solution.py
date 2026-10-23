@@ -10,9 +10,9 @@ from ingest_data import ingest_csv_to_mysql
 
 # %%
 DB_CONFIG = {
-    "host": "127.0.0.1",
-    "user": "root",
-    "password": "Welcome1!",
+    "host": "********",
+    "user": "********",
+    "password": "*******",
     "database": "company_db",
 }
 CSV_PATH = os.path.abspath("employees_data.csv")
